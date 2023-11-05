@@ -66,9 +66,10 @@ i.fas.fa-search {
 #addButton {
     background-color: #81aedb;
     color: white; /* Set the text color */
-    padding: 10px 20px; /* Set padding for spacing inside the button */
+    padding: 10px 20px;
+     /* Set padding for spacing inside the button */
     font-size: 16px; /* Set the font size */
-    border: none; /* Remove the button border */
+    border: 2px; /* Remove the button border */
     border-radius: 40px; /* Add rounded corners */
     cursor: pointer;
 
@@ -97,7 +98,7 @@ p {
     color: white; /* Set the text color */
     padding: 10px 20px; /* Set padding for spacing inside the button */
     font-size: 16px; /* Set the font size */
-    border: none; /* Remove the button border */
+    border: 2px; /* Remove the button border */
     border-radius: 20px; /* Add rounded corners */
     cursor: pointer; /* Add a pointer cursor on hover for interactivity */
   }
@@ -130,6 +131,13 @@ h2 {
     height: 100px; /* Ensure the height matches the width for a perfect circle */
     border: 2px solid #fff; /* Optional: Add a white border around the circle */
     border-radius: 50%; /* Create a circular clipping effect */
+}
+.status-section img {
+    padding: 10px 20px;
+    width: 40px;
+    height: 40px;
+    border: 1 px #ddd;
+    border-radius: 50%;
 }
 
 .content-section {
