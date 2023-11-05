@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.container h2 {
+    margin: 0;
+}
+
+.container form {
+    margin-top: 20px;
+}
+
+input[type="text"]{
+    width: 50%; /* Make the input fields expand to the container's width */
+    padding: 5px; /* Add padding to input fields */
+    margin: 10px 0; /* Add vertical margin for input fields */
+}
+
+input[type="Sign Up"] {
+    padding: 10px 20px; /* Adjust padding for the submit button */
+    margin: 10px 0; /* Add vertical margin for the submit button */
+}
